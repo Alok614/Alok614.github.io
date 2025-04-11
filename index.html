@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Recommendation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="darkModeToggle">🌙Toggle Dark Mode</button>
+  <h1>🎬 Movie Recommendation System</h1>
+  
+  <div class="controls">
+    <label for="timeInput">Enter available time (hours):</label>
+    <input type="number" id="timeInput" min="1" max="100" value="">
+    
+    <button id="recommendButton">Get Best Movies</button>
+    <button id="clearButton">Clear Results</button>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
